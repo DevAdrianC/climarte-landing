@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.svg";
 
 export default function Hero() {
   return (
@@ -22,14 +22,24 @@ export default function Hero() {
             fill="#00C2C7"
             opacity="0.3"
             animate={{ y: [0, -10, 0] }}
-            transition={{ duration: 9, repeat: Infinity, ease: "easeInOut", delay: -3 }}
+            transition={{
+              duration: 9,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: -3,
+            }}
           />
           <motion.path
             d="M0,160 C80,135 160,185 250,160 C340,135 420,185 500,160 L500,200 L0,200 Z"
             fill="#0057B8"
             opacity="0.35"
             animate={{ y: [0, -10, 0] }}
-            transition={{ duration: 9, repeat: Infinity, ease: "easeInOut", delay: -6 }}
+            transition={{
+              duration: 9,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: -6,
+            }}
           />
         </svg>
       </div>
@@ -49,8 +59,12 @@ export default function Hero() {
           />
         </div>
         <div className="mb-3 flex items-baseline justify-center gap-0.5">
-          <span className="font-display text-[27px] font-extrabold text-white">CLIM</span>
-          <span className="font-display text-[27px] font-extrabold text-sky">ARTE</span>
+          <span className="font-display text-[27px] font-extrabold text-white">
+            CLIM
+          </span>
+          <span className="font-display text-[27px] font-extrabold text-sky">
+            ARTE
+          </span>
         </div>
         <div className="flex items-center justify-center gap-2.5 text-white/65">
           <span className="h-px w-4.5 bg-sky/50" />
