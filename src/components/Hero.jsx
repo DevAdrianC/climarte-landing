@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo3.0.png";
 
 export default function Hero() {
   return (
@@ -51,11 +51,11 @@ export default function Hero() {
         className="relative z-10 text-center"
       >
         <div className="relative mb-6 flex justify-center">
-          <div className="absolute h-[190px] w-[190px] rounded-full bg-[radial-gradient(circle,rgba(110,198,255,0.28)_0%,rgba(110,198,255,0)_70%)]" />
+          <div className="absolute h-[220px] w-[220px] rounded-full bg-[radial-gradient(circle,rgba(110,198,255,0.28)_0%,rgba(110,198,255,0)_70%)]" />
           <img
             src={logo}
             alt="Climarte"
-            className="relative w-48 drop-shadow-[0_8px_20px_rgba(0,0,0,0.22)]"
+            className="relative w-64 drop-shadow-[0_8px_20px_rgba(0,0,0,0.22)]"
           />
         </div>
       </motion.div>
