@@ -51,27 +51,12 @@ export default function Hero() {
         className="relative z-10 text-center"
       >
         <div className="relative mb-6 flex justify-center">
-          <div className="absolute h-[150px] w-[150px] rounded-full bg-[radial-gradient(circle,rgba(110,198,255,0.28)_0%,rgba(110,198,255,0)_70%)]" />
+          <div className="absolute h-[190px] w-[190px] rounded-full bg-[radial-gradient(circle,rgba(110,198,255,0.28)_0%,rgba(110,198,255,0)_70%)]" />
           <img
             src={logo}
             alt="Climarte"
-            className="relative w-27 drop-shadow-[0_8px_20px_rgba(0,0,0,0.22)]"
+            className="relative w-48 drop-shadow-[0_8px_20px_rgba(0,0,0,0.22)]"
           />
-        </div>
-        <div className="mb-3 flex items-baseline justify-center gap-0.5">
-          <span className="font-display text-[27px] font-extrabold text-white">
-            CLIM
-          </span>
-          <span className="font-display text-[27px] font-extrabold text-sky">
-            ARTE
-          </span>
-        </div>
-        <div className="flex items-center justify-center gap-2.5 text-white/65">
-          <span className="h-px w-4.5 bg-sky/50" />
-          <span className="text-[11.5px] font-medium uppercase italic tracking-[0.14em]">
-            El arte de climatizar
-          </span>
-          <span className="h-px w-4.5 bg-sky/50" />
         </div>
       </motion.div>
     </div>
